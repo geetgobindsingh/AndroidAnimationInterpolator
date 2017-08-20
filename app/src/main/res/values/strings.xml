@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">"Android Animation Interpolator"</string>
+    <string name="def_interpolator">An interpolator defines the rate of change of an animation. This allows the basic animation effects (alpha, scale, translate, rotate) to be accelerated, decelerated, repeated and more.</string>
+    <string name="def_interpolator_formulae">displacedTime = pow(originalTime, 2) or\ndisplacedTime = sin(2π * originalTime)</string>
+    <string name="animate">Click To Animate</string>
+    <string name="alpha_animation">Alpha Animation</string>
+    <string name="scale_animation">Scale Animation</string>
+    <string name="translate_animation">Translate Animation</string>
+    <string name="rotate_animation">Rotate Animation</string>
+    <string name="select_from_spinner_text">Select any Interpolator</string>
+</resources>

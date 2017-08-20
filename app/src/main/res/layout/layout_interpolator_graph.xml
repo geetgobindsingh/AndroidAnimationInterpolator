@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/interpolator_selected_name"
+        style="@style/TextAppearance.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="17sp"
+        android:textStyle="bold|italic" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/interpolator_line_chart"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp" />
+
+    <com.nishant.math.MathView
+        android:id="@+id/interpolator_selected_formulae"
+        style="@style/TextAppearance.Body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center" />
+</LinearLayout>
