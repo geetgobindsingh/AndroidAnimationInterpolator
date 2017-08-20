@@ -1,0 +1,2 @@
+# AndroidAnimationInterpolator
+Proof of concept
